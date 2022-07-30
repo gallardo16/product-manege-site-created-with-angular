@@ -1,4 +1,5 @@
 import { Observable } from 'rxjs';
+import { LoadingService } from 'src/app/core/services/loading.service';
 import { RoutingService } from 'src/app/core/services/routing.service';
 
 import { Component } from '@angular/core';
@@ -28,6 +29,7 @@ export class SignInPageComponent  {
   constructor(
     private accountService: AccountService,
     private routingService: RoutingService,
+    private loadingService: LoadingService,
     private formBuilder: FormBuilder,
     public translateService: TranslateService
   ) { }
@@ -71,6 +73,9 @@ export class SignInPageComponent  {
   }
 
   private signIn(signInRequestDto: SignInRequestDto) {
+    // Starts Loading.
+    this.loadingService.startLoading();
+
     // Signs in and gets response dto.
     const signInResponseDto: Observable<SignInResponseDto> = this.accountService.signIn(signInRequestDto);
     signInResponseDto.subscribe(responseDto => {
@@ -80,6 +85,9 @@ export class SignInPageComponent  {
         // Moves to the Product listing page.
         this.routingService.navigate(UrlConst.PATH_PRODUCT_LISTING);
       }
+
+      // Stops Loading.
+      this.loadingService.stopLoading();
     });
   }
   
