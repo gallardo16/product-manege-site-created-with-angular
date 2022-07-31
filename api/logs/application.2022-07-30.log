@@ -1,0 +1,31 @@
+2022-07-30 16:28:07,620 INFO [main] INFO  c.e.d.ProductManageSiteServiceForHandsOnApplication - Starting ProductManageSiteServiceForHandsOnApplication on mba.local with PID 3386 (/Users/gallardo316/angular-udemy/api/ProductManageService-1.0.0.war started by gallardo316 in /Users/gallardo316/angular-udemy/api)
+2022-07-30 16:28:07,626 INFO [main] INFO  c.e.d.ProductManageSiteServiceForHandsOnApplication - No active profile set, falling back to default profiles: default
+2022-07-30 16:28:10,775 INFO [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2022-07-30 16:28:10,796 INFO [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2022-07-30 16:28:10,797 INFO [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.41]
+2022-07-30 16:28:11,904 INFO [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2022-07-30 16:28:11,904 INFO [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 4112 ms
+2022-07-30 16:28:13,468 INFO [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/*'], []
+2022-07-30 16:28:13,468 INFO [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/assets/i18n/*'], []
+2022-07-30 16:28:13,529 INFO [main] INFO  o.s.s.w.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a095ec0, org.springframework.security.web.context.SecurityContextPersistenceFilter@278f8425, org.springframework.security.web.header.HeaderWriterFilter@baf1bb3, org.springframework.security.web.csrf.CsrfFilter@4b1c0397, org.springframework.security.web.authentication.logout.LogoutFilter@19593091, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@4a03bb68, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b1abd11, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40021799, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4f20a5e0, org.springframework.security.web.session.SessionManagementFilter@5b3f3ba0, org.springframework.security.web.access.ExceptionTranslationFilter@588ffeb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@201aa8c1]
+2022-07-30 16:28:13,567 INFO [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-07-30 16:28:13,737 INFO [main] INFO  o.s.s.c.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2022-07-30 16:28:14,161 INFO [main] INFO  o.f.c.i.license.VersionPrinter - Flyway Community Edition 6.0.8 by Redgate
+2022-07-30 16:28:14,171 INFO [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2022-07-30 16:28:14,477 INFO [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2022-07-30 16:28:14,505 INFO [main] INFO  o.f.c.i.database.DatabaseFactory - Database: jdbc:h2:file:./h2db/sampledb (H2 1.4)
+2022-07-30 16:28:14,544 WARN [main] WARN  o.f.c.i.database.base.Database - Flyway upgrade recommended: H2 1.4.200 is newer than this version of Flyway and support has not been tested. The latest supported version of H2 is 1.4.199.
+2022-07-30 16:28:14,606 INFO [main] INFO  o.f.c.internal.command.DbValidate - Successfully validated 3 migrations (execution time 00:00.046s)
+2022-07-30 16:28:14,629 INFO [main] INFO  o.f.core.internal.command.DbMigrate - Current version of schema "PUBLIC": 3
+2022-07-30 16:28:14,629 INFO [main] INFO  o.f.core.internal.command.DbMigrate - Schema "PUBLIC" is up to date. No migration necessary.
+2022-07-30 16:28:14,790 INFO [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Context refreshed
+2022-07-30 16:28:14,820 INFO [main] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2022-07-30 16:28:14,869 INFO [main] INFO  s.d.s.w.s.ApiListingReferenceScanner - Scanning for api listing references
+2022-07-30 16:28:15,229 INFO [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2022-07-30 16:28:15,235 INFO [main] INFO  c.e.d.ProductManageSiteServiceForHandsOnApplication - Started ProductManageSiteServiceForHandsOnApplication in 8.913 seconds (JVM running for 9.604)
+2022-07-30 16:28:50,647 INFO [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-30 16:28:50,648 INFO [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2022-07-30 16:28:50,675 INFO [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 27 ms
+2022-07-30 17:08:44,720 WARN [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s825ms), soft-evicting connections from pool.
+2022-07-30 17:56:38,900 WARN [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=27s798ms), soft-evicting connections from pool.
+2022-07-30 20:22:41,954 WARN [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Retrograde clock change detected (housekeeper delta=29s798ms), soft-evicting connections from pool.
